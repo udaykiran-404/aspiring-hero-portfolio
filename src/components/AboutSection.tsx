@@ -1,10 +1,14 @@
+import AnimatedSection from "./AnimatedSection";
+
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-mono text-primary text-sm tracking-widest uppercase mb-2">About Me</h2>
+        <AnimatedSection>
+          <h2 className="font-mono text-primary text-sm tracking-widest uppercase mb-2">About Me</h2>
+        </AnimatedSection>
         <div className="grid md:grid-cols-2 gap-12 mt-8">
-          <div>
+          <AnimatedSection delay={0.1}>
             <p className="text-lg text-foreground/90 leading-relaxed mb-6">
               I'm a 3rd year BTech student at <span className="text-primary font-medium">Indian Institute of Technology, Delhi</span>, 
               majoring in Computer Science &amp; Engineering. I love turning complex problems into simple, 
@@ -15,22 +19,24 @@ const AboutSection = () => {
               projects, or exploring the latest in AI research. I'm currently seeking internship opportunities 
               in software development.
             </p>
-          </div>
-          <div className="space-y-4">
-            {[
-              { label: "Name", value: "Rahul Sharma" },
-              { label: "University", value: "IIT Delhi" },
-              { label: "Degree", value: "B.Tech CSE (2022–2026)" },
-              { label: "CGPA", value: "8.7 / 10" },
-              { label: "Location", value: "New Delhi, India" },
-              { label: "Email", value: "rahul.sharma@example.com" },
-            ].map((item) => (
-              <div key={item.label} className="flex justify-between items-center py-3 border-b border-border">
-                <span className="text-muted-foreground text-sm">{item.label}</span>
-                <span className="text-foreground font-medium text-sm">{item.value}</span>
-              </div>
-            ))}
-          </div>
+          </AnimatedSection>
+          <AnimatedSection delay={0.2}>
+            <div className="space-y-4">
+              {[
+                { label: "Name", value: "Rahul Sharma" },
+                { label: "University", value: "IIT Delhi" },
+                { label: "Degree", value: "B.Tech CSE (2022–2026)" },
+                { label: "CGPA", value: "8.7 / 10" },
+                { label: "Location", value: "New Delhi, India" },
+                { label: "Email", value: "rahul.sharma@example.com" },
+              ].map((item) => (
+                <div key={item.label} className="flex justify-between items-center py-3 border-b border-border">
+                  <span className="text-muted-foreground text-sm">{item.label}</span>
+                  <span className="text-foreground font-medium text-sm">{item.value}</span>
+                </div>
+              ))}
+            </div>
+          </AnimatedSection>
         </div>
       </div>
     </section>

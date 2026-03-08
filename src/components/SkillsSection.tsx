@@ -1,3 +1,5 @@
+import AnimatedSection from "./AnimatedSection";
+
 const skills = {
   "Languages": ["C++", "Python", "JavaScript", "TypeScript", "Java", "SQL"],
   "Frontend": ["React", "Next.js", "Tailwind CSS", "HTML/CSS"],
@@ -10,10 +12,12 @@ const SkillsSection = () => {
   return (
     <section id="skills" className="py-24 px-6 bg-card/50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-mono text-primary text-sm tracking-widest uppercase mb-10">Skills & Technologies</h2>
+        <AnimatedSection>
+          <h2 className="font-mono text-primary text-sm tracking-widest uppercase mb-10">Skills & Technologies</h2>
+        </AnimatedSection>
         <div className="grid gap-8">
-          {Object.entries(skills).map(([category, items]) => (
-            <div key={category}>
+          {Object.entries(skills).map(([category, items], i) => (
+            <AnimatedSection key={category} delay={i * 0.1}>
               <h3 className="text-foreground font-semibold mb-3">{category}</h3>
               <div className="flex flex-wrap gap-2">
                 {items.map((skill) => (
@@ -25,7 +29,7 @@ const SkillsSection = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>
