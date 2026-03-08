@@ -23,7 +23,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
         >
-          Rahul Sharma
+          Udaykiran
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

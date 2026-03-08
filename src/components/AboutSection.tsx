@@ -32,7 +32,7 @@ const AboutSection = () => {
           <AnimatedSection delay={0.2}>
             <div className="space-y-4">
               {[
-                { label: "Name", value: "Rahul Sharma" },
+                { label: "Name", value: "Udaykiran" },
                 { label: "University", value: "IIT Delhi" },
                 { label: "Degree", value: "B.Tech CSE (2022–2026)" },
                 { label: "CGPA", value: "8.7 / 10" },
