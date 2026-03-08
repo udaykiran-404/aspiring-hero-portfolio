@@ -1,4 +1,5 @@
 import AnimatedSection from "./AnimatedSection";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const AboutSection = () => {
   return (
@@ -7,7 +8,7 @@ const AboutSection = () => {
         <AnimatedSection>
           <h2 className="font-mono text-primary text-sm tracking-widest uppercase mb-2">About Me</h2>
         </AnimatedSection>
-        <div className="grid md:grid-cols-2 gap-12 mt-8">
+        <div className="grid md:grid-cols-[1fr_auto_1fr] gap-12 mt-8 items-start">
           <AnimatedSection delay={0.1}>
             <p className="text-lg text-foreground/90 leading-relaxed mb-6">
               I'm a 3rd year BTech student at <span className="text-primary font-medium">Indian Institute of Technology, Delhi</span>, 
@@ -19,6 +20,14 @@ const AboutSection = () => {
               projects, or exploring the latest in AI research. I'm currently seeking internship opportunities 
               in software development.
             </p>
+          </AnimatedSection>
+          <AnimatedSection delay={0.15} className="hidden md:flex justify-center">
+            <div className="relative">
+              <div className="w-48 h-48 rounded-2xl overflow-hidden border-2 border-border ring-2 ring-primary/20 ring-offset-4 ring-offset-background">
+                <img src={profilePhoto} alt="Rahul Sharma" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl -z-10" />
+            </div>
           </AnimatedSection>
           <AnimatedSection delay={0.2}>
             <div className="space-y-4">
