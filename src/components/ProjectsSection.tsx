@@ -1,9 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
-import projectEcotrack from "@/assets/project-ecotrack.jpg";
-import projectSmartnotes from "@/assets/project-smartnotes.jpg";
-import projectCampus from "@/assets/project-campus.jpg";
-import projectPathfinder from "@/assets/project-pathfinder.jpg";
 
 const projects = [
   {
@@ -12,7 +8,6 @@ const projects = [
     tech: ["React", "Node.js", "MongoDB", "Chart.js"],
     github: "https://github.com",
     live: "https://example.com",
-    image: projectEcotrack,
   },
   {
     title: "SmartNotes AI",
@@ -20,7 +15,6 @@ const projects = [
     tech: ["Python", "Flask", "OpenAI API", "PostgreSQL"],
     github: "https://github.com",
     live: null,
-    image: projectSmartnotes,
   },
   {
     title: "Campus Connect",
@@ -28,7 +22,6 @@ const projects = [
     tech: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
     github: "https://github.com",
     live: "https://example.com",
-    image: projectCampus,
   },
   {
     title: "PathFinder Visualizer",
@@ -36,7 +29,6 @@ const projects = [
     tech: ["React", "TypeScript", "Canvas API"],
     github: "https://github.com",
     live: "https://example.com",
-    image: projectPathfinder,
   },
 ];
 
@@ -50,41 +42,31 @@ const ProjectsSection = () => {
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, i) => (
             <AnimatedSection key={project.title} delay={i * 0.1}>
-              <div className="group rounded-xl border border-border bg-card hover:border-primary/40 transition-all duration-300 h-full overflow-hidden">
-                <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-card via-card/40 to-transparent" />
-                </div>
-                <div className="p-6 pt-3">
-                  <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
-                      {project.title}
-                    </h3>
-                    <div className="flex gap-2">
-                      <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                        <Github className="w-4 h-4" />
+              <div className="group p-6 rounded-xl border border-border bg-card hover:border-primary/40 transition-all duration-300 h-full">
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
+                    {project.title}
+                  </h3>
+                  <div className="flex gap-2">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                      <Github className="w-4 h-4" />
+                    </a>
+                    {project.live && (
+                      <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                        <ExternalLink className="w-4 h-4" />
                       </a>
-                      {project.live && (
-                        <a href={project.live} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-                          <ExternalLink className="w-4 h-4" />
-                        </a>
-                      )}
-                    </div>
+                    )}
                   </div>
-                  <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                    {project.description}
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((t) => (
-                      <span key={t} className="font-mono text-xs text-primary/70 bg-primary/5 px-2 py-1 rounded">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
+                </div>
+                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                  {project.description}
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {project.tech.map((t) => (
+                    <span key={t} className="font-mono text-xs text-primary/70 bg-primary/5 px-2 py-1 rounded">
+                      {t}
+                    </span>
+                  ))}
                 </div>
               </div>
             </AnimatedSection>
