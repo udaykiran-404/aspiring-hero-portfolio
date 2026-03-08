@@ -24,7 +24,7 @@ const AboutSection = () => {
           <AnimatedSection delay={0.15} className="hidden md:flex justify-center">
             <div className="relative">
               <div className="w-48 h-48 rounded-2xl overflow-hidden border-2 border-border ring-2 ring-primary/20 ring-offset-4 ring-offset-background">
-                <img src={profilePhoto} alt="Rahul Sharma" className="w-full h-full object-cover" />
+                <img src={profilePhoto} alt="Udaykiran" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl -z-10" />
             </div>
