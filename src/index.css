@@ -84,7 +84,6 @@ All colors MUST be HSL.
     scroll-behavior: smooth;
   }
 
-@layer base {
   * {
     @apply border-border;
   }
