@@ -18,8 +18,8 @@ const ContactSection = () => {
             I'm currently looking for internship and full-time opportunities. Feel free to reach out!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-            <a href="mailto:rahul.sharma@example.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors">
-              <Mail className="w-4 h-4" /> rahul.sharma@example.com
+            <a href="mailto:udaykiran@example.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors">
+              <Mail className="w-4 h-4" /> udaykiran@example.com
             </a>
             <span className="hidden sm:block text-border">|</span>
             <span className="flex items-center gap-2 text-muted-foreground">
