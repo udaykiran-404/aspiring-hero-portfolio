@@ -37,7 +37,7 @@ const AboutSection = () => {
                 { label: "Degree", value: "B.Tech CSE (2022–2026)" },
                 { label: "CGPA", value: "8.7 / 10" },
                 { label: "Location", value: "New Delhi, India" },
-                { label: "Email", value: "rahul.sharma@example.com" },
+                { label: "Email", value: "udaykiran@example.com" },
               ].map((item) => (
                 <div key={item.label} className="flex justify-between items-center py-3 border-b border-border">
                   <span className="text-muted-foreground text-sm">{item.label}</span>

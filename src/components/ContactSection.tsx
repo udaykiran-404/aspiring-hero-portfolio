@@ -31,7 +31,7 @@ const ContactSection = () => {
             </span>
           </div>
           <a
-            href="mailto:rahul.sharma@example.com"
+            href="mailto:udaykiran@example.com"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
           >
             <Mail className="w-4 h-4" />
