@@ -24,7 +24,7 @@ const AboutSection = () => {
           <AnimatedSection delay={0.15} className="hidden md:flex justify-center">
             <div className="relative">
               <div className="w-48 h-48 rounded-2xl overflow-hidden border-2 border-border ring-2 ring-primary/20 ring-offset-4 ring-offset-background">
-                <img src={profilePhoto} alt="Rahul Sharma" className="w-full h-full object-cover" />
+                <img src={profilePhoto} alt="Udaykiran" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -inset-4 rounded-3xl bg-primary/5 blur-2xl -z-10" />
             </div>
@@ -32,12 +32,12 @@ const AboutSection = () => {
           <AnimatedSection delay={0.2}>
             <div className="space-y-4">
               {[
-                { label: "Name", value: "Rahul Sharma" },
+                { label: "Name", value: "Udaykiran" },
                 { label: "University", value: "IIT Delhi" },
                 { label: "Degree", value: "B.Tech CSE (2022–2026)" },
                 { label: "CGPA", value: "8.7 / 10" },
                 { label: "Location", value: "New Delhi, India" },
-                { label: "Email", value: "rahul.sharma@example.com" },
+                { label: "Email", value: "udaykiran@example.com" },
               ].map((item) => (
                 <div key={item.label} className="flex justify-between items-center py-3 border-b border-border">
                   <span className="text-muted-foreground text-sm">{item.label}</span>

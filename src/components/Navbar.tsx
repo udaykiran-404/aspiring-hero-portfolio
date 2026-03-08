@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="max-w-5xl mx-auto px-6 flex items-center justify-between h-16">
-        <a href="#" className="font-mono text-primary font-semibold text-lg">RS.</a>
+        <a href="#" className="font-mono text-primary font-semibold text-lg">UK.</a>
         
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (

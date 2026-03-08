@@ -23,7 +23,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
         >
-          Rahul Sharma
+          Udaykiran
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -66,7 +66,7 @@ const HeroSection = () => {
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="mailto:rahul@example.com" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
+          <a href="mailto:udaykiran@example.com" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
             <Mail className="w-5 h-5" />
           </a>
         </motion.div>
