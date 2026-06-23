@@ -23,7 +23,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6"
         >
-          Udaykiran
+          Uday Kiran Velagada
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -60,13 +60,13 @@ const HeroSection = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex items-center justify-center gap-4 mb-16"
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
+          <a href="https://github.com/udaykiran-404" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
             <Github className="w-5 h-5" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/udaykiran-velagada-43a26b300/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
             <Linkedin className="w-5 h-5" />
           </a>
-          <a href="mailto:udaykiran@example.com" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
+          <a href="mailto:udaykiranvelagada@gmail.com" className="p-3 rounded-lg border border-border hover:border-primary hover:text-primary transition-colors">
             <Mail className="w-5 h-5" />
           </a>
         </motion.div>
