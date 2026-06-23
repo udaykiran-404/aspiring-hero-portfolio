@@ -11,14 +11,14 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-[1fr_auto_1fr] gap-12 mt-8 items-start">
           <AnimatedSection delay={0.1}>
             <p className="text-lg text-foreground/90 leading-relaxed mb-6">
-              I'm a 3rd year BTech student at <span className="text-primary font-medium">Indian Institute of Technology, Delhi</span>, 
-              majoring in Computer Science &amp; Engineering. I love turning complex problems into simple, 
-              beautiful, and intuitive solutions.
+              I'm a BTech student at <span className="text-primary font-medium">MVGR College of Engineering</span>, 
+              majoring in Computer Science &amp; Engineering. With a strong foundation in Data Structures, 
+              Algorithms, and Software Development, I love turning complex problems into simple, scalable solutions.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              When I'm not coding, you can find me participating in hackathons, contributing to open-source 
-              projects, or exploring the latest in AI research. I'm currently seeking internship opportunities 
-              in software development.
+              I have hands-on experience in full-stack development and AI/ML workflows through internships 
+              supported by AICTE and Google for Developers. I'm passionate about building scalable applications 
+              and leveraging AI/ML to solve real-world problems.
             </p>
           </AnimatedSection>
           <AnimatedSection delay={0.15} className="hidden md:flex justify-center">
@@ -32,12 +32,12 @@ const AboutSection = () => {
           <AnimatedSection delay={0.2}>
             <div className="space-y-4">
               {[
-                { label: "Name", value: "Udaykiran" },
-                { label: "University", value: "IIT Delhi" },
-                { label: "Degree", value: "B.Tech CSE (2022–2026)" },
-                { label: "CGPA", value: "8.7 / 10" },
-                { label: "Location", value: "New Delhi, India" },
-                { label: "Email", value: "udaykiran@example.com" },
+                { label: "Name", value: "Uday Kiran Velagada" },
+                { label: "College", value: "MVGR College of Engineering" },
+                { label: "Degree", value: "B.Tech CSE (2023–2027)" },
+                { label: "CGPA", value: "8.2 / 10" },
+                { label: "Location", value: "Andhra Pradesh, India" },
+                { label: "Email", value: "udaykiranvelagada@gmail.com" },
               ].map((item) => (
                 <div key={item.label} className="flex justify-between items-center py-3 border-b border-border">
                   <span className="text-muted-foreground text-sm">{item.label}</span>
