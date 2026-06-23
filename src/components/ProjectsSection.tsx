@@ -3,32 +3,18 @@ import AnimatedSection from "./AnimatedSection";
 
 const projects = [
   {
-    title: "EcoTrack",
-    description: "A full-stack web app that helps users track their carbon footprint with personalized suggestions to reduce environmental impact.",
-    tech: ["React", "Node.js", "MongoDB", "Chart.js"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "SmartNotes AI",
-    description: "An AI-powered note-taking application that automatically summarizes lectures and generates flashcards using NLP.",
-    tech: ["Python", "Flask", "OpenAI API", "PostgreSQL"],
-    github: "https://github.com",
+    title: "Pave Guardian",
+    description: "A smart pothole detection & mapping system. Built an ML model using mobile accelerometer data to detect road anomalies (datasets from Kaggle), with community-based reporting and map visualization for real-time tracking.",
+    tech: ["Python", "Machine Learning", "Pandas", "Scikit-learn"],
+    github: "https://github.com/udaykiran-404/pave-guardian",
     live: null,
   },
   {
-    title: "Campus Connect",
-    description: "A real-time campus event management platform with features like RSVPs, notifications, and event analytics.",
-    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "PathFinder Visualizer",
-    description: "An interactive visualization tool for graph algorithms like Dijkstra's, A*, and BFS with customizable grids.",
-    tech: ["React", "TypeScript", "Canvas API"],
-    github: "https://github.com",
-    live: "https://example.com",
+    title: "VidhyaSarathi",
+    description: "An AI-based career guidance system for 10th-grade students that provides career recommendations based on aptitude quizzes, using AI APIs for personalized reporting and Firebase for secure data storage.",
+    tech: ["Python", "AI APIs", "Firebase"],
+    github: "https://github.com/udaykiran-404/VidhyaSarathi-AI-based-career-guidance-",
+    live: null,
   },
 ];
 

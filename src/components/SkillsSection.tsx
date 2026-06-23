@@ -1,11 +1,11 @@
 import AnimatedSection from "./AnimatedSection";
 
 const skills = {
-  "Languages": ["C++", "Python", "JavaScript", "TypeScript", "Java", "SQL"],
-  "Frontend": ["React", "Next.js", "Tailwind CSS", "HTML/CSS"],
-  "Backend": ["Node.js", "Express", "Django", "REST APIs"],
-  "Tools & Platforms": ["Git", "Docker", "AWS", "MongoDB", "PostgreSQL", "Linux"],
-  "CS Fundamentals": ["Data Structures", "Algorithms", "DBMS", "OS", "Computer Networks"],
+  "Programming": ["C", "C++", "Java", "Python"],
+  "Web Development": ["HTML", "CSS", "JavaScript", "Python Full Stack"],
+  "AI / ML": ["Machine Learning", "Pandas", "Scikit-learn", "Data Analysis"],
+  "Databases & Tools": ["MySQL", "Firebase", "GitHub", "Linux", "VS Code"],
+  "Core CS": ["Data Structures & Algorithms", "DBMS", "OOP", "Operating Systems"],
 };
 
 const SkillsSection = () => {

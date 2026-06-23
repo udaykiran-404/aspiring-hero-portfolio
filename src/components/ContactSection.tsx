@@ -18,20 +18,20 @@ const ContactSection = () => {
             I'm currently looking for internship and full-time opportunities. Feel free to reach out!
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
-            <a href="mailto:udaykiran@example.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors">
-              <Mail className="w-4 h-4" /> udaykiran@example.com
+            <a href="mailto:udaykiranvelagada@gmail.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors">
+              <Mail className="w-4 h-4" /> udaykiranvelagada@gmail.com
             </a>
             <span className="hidden sm:block text-border">|</span>
             <span className="flex items-center gap-2 text-muted-foreground">
-              <Phone className="w-4 h-4" /> +91 98765 43210
+              <Phone className="w-4 h-4" /> +91 86889 79581
             </span>
             <span className="hidden sm:block text-border">|</span>
             <span className="flex items-center gap-2 text-muted-foreground">
-              <MapPin className="w-4 h-4" /> New Delhi, India
+              <MapPin className="w-4 h-4" /> Andhra Pradesh, India
             </span>
           </div>
           <a
-            href="mailto:udaykiran@example.com"
+            href="mailto:udaykiranvelagada@gmail.com"
             className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
           >
             <Mail className="w-4 h-4" />
