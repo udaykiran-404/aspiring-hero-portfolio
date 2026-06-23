@@ -2,31 +2,30 @@ import AnimatedSection from "./AnimatedSection";
 
 const experiences = [
   {
-    role: "Software Engineering Intern",
-    company: "TechCorp India",
-    period: "May 2025 – Jul 2025",
+    role: "Python Full Stack Developer Intern",
+    company: "EduSkills (AICTE)",
+    period: "Jan 2026 – Mar 2026",
     points: [
-      "Developed RESTful APIs serving 10K+ daily requests using Node.js and Express",
-      "Improved frontend performance by 35% through code splitting and lazy loading",
-      "Collaborated with a team of 5 engineers in an Agile environment",
+      "Developed full-stack web modules using Python, managing backend logic and data flow",
+      "Integrated APIs and databases to improve application architecture and real-world development workflows",
     ],
   },
   {
-    role: "Open Source Contributor",
-    company: "Mozilla Firefox",
-    period: "Jan 2025 – Present",
+    role: "AI-ML Virtual Intern",
+    company: "EduSkills (Supported by Google for Developers)",
+    period: "Jul 2025 – Sep 2025",
     points: [
-      "Resolved 12+ issues related to accessibility and UI improvements",
-      "Participated in code reviews and community discussions",
+      "Implemented machine learning workflows, including data preprocessing, model training, and evaluation",
+      "Explored AI applications and developed predictive models using data analysis techniques",
     ],
   },
   {
-    role: "Teaching Assistant",
-    company: "IIT Delhi — Data Structures",
-    period: "Aug 2024 – Dec 2024",
+    role: "Team Lead",
+    company: "Google Developers Groups",
+    period: "Volunteering",
     points: [
-      "Conducted weekly doubt-clearing sessions for 60+ students",
-      "Designed and evaluated programming assignments and quizzes",
+      "Led a team during a competitive hackathon, managing task distribution and collaboration under strict time constraints",
+      "Contributed to idea generation and the development of functional technical solutions",
     ],
   },
 ];
